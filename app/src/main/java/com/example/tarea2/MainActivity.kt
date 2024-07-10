@@ -38,7 +38,6 @@ class MainActivity : AppCompatActivity() {
             Persona(19, "Pedro Sánchez", 50, "divorciado", "Cantidad de Hij@s: 4"),
             Persona(20, "Laura Díaz", 21, "soltera", "Cantidad de Hij@s: 0"),
         )
-
         personaAdapter = PersonaAdapter(personaList)
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
         binding.recyclerView.adapter = personaAdapter
